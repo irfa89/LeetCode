@@ -7,17 +7,7 @@ You may assume nums1 and nums2 cannot be both empty.
 
 class Solution:
 
-    def findMedianSortedArrays(self, nums1, nums2):
-        length_total = len(nums1) + len(nums2)
-        if length_total % 2 == 0:
-            return (
-                        find_K(length_total // 2, nums1, nums2) +
-                        find_K((length_total // 2) - 1, nums1, nums2)
-                   ) / 2
-        return find_K(length_total // 2, nums1, nums2)
-
-
-    def find_K(k, nums1, nums2):
+    def find_K(self, k,nums1, nums2):
         if len(nums1) == 0:
             return nums2[k]
         if len(nums2) == 0:
@@ -37,6 +27,17 @@ class Solution:
                 return find_K(k, nums1[:mid1], nums2)
             else:
                 return find_K(k, nums1, nums2[:mid2])
+
+
+    def findMedianSortedArrays(self, nums1, nums2):
+        length_total = len(nums1) + len(nums2)
+        if length_total % 2 == 0:
+            return (
+                        find_K(length_total // 2, nums1, nums2) +
+                        find_K((length_total // 2) - 1, nums1, nums2)
+                   ) / 2
+        return find_K(length_total // 2, nums1, nums2)
+
 
 
 def main():
