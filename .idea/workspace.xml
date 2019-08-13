@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c52a133-894e-4c08-b41c-5a60382cd962" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Week-3/LFUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week-3/LRUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week-3/findOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week-3/gameOfLife.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week-4/middleNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week-4/sortedSquares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week-4/spiralOrder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +20,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$linkedListCycle.coverage" NAME="linkedListCycle Coverage Results" MODIFIED="1565028554047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
     <SUITE FILE_PATH="coverage/LeetCode$MedianFinder.coverage" NAME="MedianFinder Coverage Results" MODIFIED="1564683557030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
     <SUITE FILE_PATH="coverage/LeetCode$MinStack.coverage" NAME="MinStack Coverage Results" MODIFIED="1565013711717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
+    <SUITE FILE_PATH="coverage/LeetCode$sortedSquares.coverage" NAME="sortedSquares Coverage Results" MODIFIED="1565624423108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-4" />
     <SUITE FILE_PATH="coverage/LeetCode$String_Compression.coverage" NAME="String_Compression Coverage Results" MODIFIED="1564083349074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
     <SUITE FILE_PATH="coverage/LeetCode$minSubArrayLen.coverage" NAME="minSubArrayLen Coverage Results" MODIFIED="1564097255491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
     <SUITE FILE_PATH="coverage/LeetCode$findMedianSortedArrays.coverage" NAME="findMedianSortedArrays Coverage Results" MODIFIED="1564676172970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
@@ -29,24 +29,15 @@
     <SUITE FILE_PATH="coverage/LeetCode$countPrimes.coverage" NAME="countPrimes Coverage Results" MODIFIED="1565029631816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
     <SUITE FILE_PATH="coverage/LeetCode$firstUniqChar.coverage" NAME="firstUniqChar Coverage Results" MODIFIED="1564021932505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
     <SUITE FILE_PATH="coverage/LeetCode$maxProfit.coverage" NAME="maxProfit Coverage Results" MODIFIED="1564496785319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
-    <SUITE FILE_PATH="coverage/LeetCode$findOrder.coverage" NAME="findOrder Coverage Results" MODIFIED="1565361295981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
+    <SUITE FILE_PATH="coverage/LeetCode$findOrder.coverage" NAME="findOrder Coverage Results" MODIFIED="1565623273396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
     <SUITE FILE_PATH="coverage/LeetCode$trap.coverage" NAME="trap Coverage Results" MODIFIED="1564155446745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
     <SUITE FILE_PATH="coverage/LeetCode$numPairsDivisibleBy60.coverage" NAME="numPairsDivisibleBy60 Coverage Results" MODIFIED="1564511788887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
+    <SUITE FILE_PATH="coverage/LeetCode$middleNode.coverage" NAME="middleNode Coverage Results" MODIFIED="1565623283795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-4" />
     <SUITE FILE_PATH="coverage/LeetCode$knightProbability.coverage" NAME="knightProbability Coverage Results" MODIFIED="1564236320873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
     <SUITE FILE_PATH="coverage/LeetCode$minFallingPathSum.coverage" NAME="minFallingPathSum Coverage Results" MODIFIED="1564671133289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LFUCache.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week-3/LFUCache.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,6 +73,9 @@
         <option value="$PROJECT_DIR$/Week-3/LRUCache.py" />
         <option value="$PROJECT_DIR$/Week-3/LFUCache.py" />
         <option value="$PROJECT_DIR$/Week-3/findOrder.py" />
+        <option value="$PROJECT_DIR$/Week-4/middleNode.py" />
+        <option value="$PROJECT_DIR$/Week-4/sortedSquares.py" />
+        <option value="$PROJECT_DIR$/Week-4/spiralOrder.py" />
       </list>
     </option>
   </component>
@@ -94,10 +88,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findOrder">
+  <component name="RunManager" selected="Python.sortedSquares">
     <configuration name="LFUCache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,7 +193,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="judgeCircle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="middleNode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,18 +201,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week-3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week-4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week-3/judgeCircle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week-4/middleNode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="linkedListCycle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sortedSquares" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,31 +220,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week-3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week-4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week-3/linkedListCycle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week-4/sortedSquares.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.judgeCircle" />
-      <item itemvalue="Python.linkedListCycle" />
       <item itemvalue="Python.countPrimes" />
       <item itemvalue="Python.LFUCache" />
       <item itemvalue="Python.findOrder" />
+      <item itemvalue="Python.middleNode" />
+      <item itemvalue="Python.sortedSquares" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sortedSquares" />
+        <item itemvalue="Python.middleNode" />
         <item itemvalue="Python.findOrder" />
         <item itemvalue="Python.LFUCache" />
         <item itemvalue="Python.countPrimes" />
-        <item itemvalue="Python.linkedListCycle" />
-        <item itemvalue="Python.judgeCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -300,20 +294,27 @@
       <option name="project" value="LOCAL" />
       <updated>1565029755500</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="revision 4">
+      <created>1565622224079</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565622224079</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="762" y="0" width="781" height="870" extended-state="1" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.328877" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="right" id="Run" order="5" weight="0.3059896" />
+      <window_info anchor="right" id="Run" order="5" weight="0.38606772" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.7553476" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33376792" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
@@ -368,7 +369,8 @@
     <MESSAGE value="second week.." />
     <MESSAGE value="revision 2" />
     <MESSAGE value="revision 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="revision 3" />
+    <MESSAGE value="revision 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="revision 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -667,11 +669,33 @@
           <line>55</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Week-4/middleNode.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Week-4/middleNode.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Week-4/middleNode.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="83" />
+      <option name="time" value="86" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Week-4/sortedSquares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week-3/LFUCache.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -851,6 +875,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week-4/middleNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week-4/sortedSquares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week-4/spiralOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
