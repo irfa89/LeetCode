@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c52a133-894e-4c08-b41c-5a60382cd962" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ETC/LL_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ETC/LL_insert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackerank/countingValleys.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackerank/insertNodeAtPosition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackerank/jumpingOnClouds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackerank/sockMerchant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week-5/reorderLogFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerank/repeatedString.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +18,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$String_Compression.coverage" NAME="String_Compression Coverage Results" MODIFIED="1564083349074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
     <SUITE FILE_PATH="coverage/LeetCode$reorderLogFiles.coverage" NAME="reorderLogFiles Coverage Results" MODIFIED="1569294115532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-5" />
     <SUITE FILE_PATH="coverage/LeetCode$judgeCircle.coverage" NAME="judgeCircle Coverage Results" MODIFIED="1565019041237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
-    <SUITE FILE_PATH="coverage/LeetCode$jumpingOnClouds.coverage" NAME="jumpingOnClouds Coverage Results" MODIFIED="1569298312619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hackerank" />
+    <SUITE FILE_PATH="coverage/LeetCode$jumpingOnClouds.coverage" NAME="jumpingOnClouds Coverage Results" MODIFIED="1569301196725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hackerank" />
     <SUITE FILE_PATH="coverage/LeetCode$countPrimes.coverage" NAME="countPrimes Coverage Results" MODIFIED="1565029631816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
     <SUITE FILE_PATH="coverage/LeetCode$maxProfit.coverage" NAME="maxProfit Coverage Results" MODIFIED="1564496785319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
     <SUITE FILE_PATH="coverage/LeetCode$findOrder.coverage" NAME="findOrder Coverage Results" MODIFIED="1565623273396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
@@ -32,6 +26,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$shortestSubarray.coverage" NAME="shortestSubarray Coverage Results" MODIFIED="1564099024918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
     <SUITE FILE_PATH="coverage/LeetCode$linkedListCycle.coverage" NAME="linkedListCycle Coverage Results" MODIFIED="1565028554047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
     <SUITE FILE_PATH="coverage/LeetCode$MedianFinder.coverage" NAME="MedianFinder Coverage Results" MODIFIED="1564683557030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
+    <SUITE FILE_PATH="coverage/LeetCode$repeatedString.coverage" NAME="repeatedString Coverage Results" MODIFIED="1569303879557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hackerank" />
     <SUITE FILE_PATH="coverage/LeetCode$MinStack.coverage" NAME="MinStack Coverage Results" MODIFIED="1565013711717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
     <SUITE FILE_PATH="coverage/LeetCode$validTicTacToe.coverage" NAME="validTicTacToe Coverage Results" MODIFIED="1566313897971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-4" />
     <SUITE FILE_PATH="coverage/LeetCode$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1566573080009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ETC" />
@@ -50,11 +45,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jumpingOnClouds.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py">
+      <file leaf-file-name="repeatedString.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hackerank/repeatedString.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="289">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sockMerchant.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hackerank/sockMerchant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="32" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +115,7 @@
         <option value="$PROJECT_DIR$/Hackerank/sockMerchant.py" />
         <option value="$PROJECT_DIR$/Hackerank/countingValleys.py" />
         <option value="$PROJECT_DIR$/Hackerank/jumpingOnClouds.py" />
+        <option value="$PROJECT_DIR$/Hackerank/repeatedString.py" />
       </list>
     </option>
   </component>
@@ -121,8 +129,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1088" />
   </component>
@@ -173,26 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jumpingOnClouds">
-    <configuration name="LL_delete" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ETC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ETC/LL_delete.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.repeatedString">
     <configuration name="countingValleys" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,6 +238,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="repeatedString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hackerank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hackerank/repeatedString.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="sockMerchant" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,19 +277,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.LL_delete" />
       <item itemvalue="Python.reorderLogFiles" />
       <item itemvalue="Python.sockMerchant" />
       <item itemvalue="Python.countingValleys" />
       <item itemvalue="Python.jumpingOnClouds" />
+      <item itemvalue="Python.repeatedString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.repeatedString" />
         <item itemvalue="Python.jumpingOnClouds" />
         <item itemvalue="Python.countingValleys" />
         <item itemvalue="Python.sockMerchant" />
         <item itemvalue="Python.reorderLogFiles" />
-        <item itemvalue="Python.LL_delete" />
       </list>
     </recent_temporary>
   </component>
@@ -360,26 +367,33 @@
       <option name="project" value="LOCAL" />
       <updated>1566323537150</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hacker rank warm up">
+      <created>1569298889605</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569298889605</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.328877" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.123046875" />
+      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.38216147" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.7553476" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07356771" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15039062" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.47459894" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.47459894" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -432,7 +446,8 @@
     <MESSAGE value="revision 5" />
     <MESSAGE value="revision 6" />
     <MESSAGE value="revision 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="revision 7" />
+    <MESSAGE value="hacker rank warm up" />
+    <option name="LAST_COMMIT_MESSAGE" value="hacker rank warm up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -776,8 +791,38 @@
           <line>6</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="103" />
+      <option name="time" value="116" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1103,6 +1148,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackerank/countingValleys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hackerank/sockMerchant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1113,17 +1172,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hackerank/countingValleys.py">
+    <entry file="file://$PROJECT_DIR$/Hackerank/repeatedString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
