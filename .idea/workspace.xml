@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c52a133-894e-4c08-b41c-5a60382cd962" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Hackerank/repeatedString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerank/Arrays/hourglassSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerank/Arrays/rotLeft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerank/String/makeAnagram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerank/countingValleys.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackerank/Warmup/countingValleys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerank/jumpingOnClouds.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackerank/Warmup/jumpingOnClouds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerank/repeatedString.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerank/sockMerchant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackerank/Warmup/sockMerchant.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +26,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$judgeCircle.coverage" NAME="judgeCircle Coverage Results" MODIFIED="1565019041237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
     <SUITE FILE_PATH="coverage/LeetCode$jumpingOnClouds.coverage" NAME="jumpingOnClouds Coverage Results" MODIFIED="1569301196725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hackerank" />
     <SUITE FILE_PATH="coverage/LeetCode$countPrimes.coverage" NAME="countPrimes Coverage Results" MODIFIED="1565029631816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
+    <SUITE FILE_PATH="coverage/LeetCode$makeAnagram.coverage" NAME="makeAnagram Coverage Results" MODIFIED="1569423417543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hackerank/String" />
     <SUITE FILE_PATH="coverage/LeetCode$maxProfit.coverage" NAME="maxProfit Coverage Results" MODIFIED="1564496785319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-2" />
     <SUITE FILE_PATH="coverage/LeetCode$findOrder.coverage" NAME="findOrder Coverage Results" MODIFIED="1565623273396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-3" />
     <SUITE FILE_PATH="coverage/LeetCode$trap.coverage" NAME="trap Coverage Results" MODIFIED="1564155446745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week-1" />
@@ -45,20 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="repeatedString.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hackerank/repeatedString.py">
+      <file leaf-file-name="makeAnagram.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hackerank/String/makeAnagram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sockMerchant.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hackerank/sockMerchant.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="32" selection-end-column="10" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -116,6 +114,9 @@
         <option value="$PROJECT_DIR$/Hackerank/countingValleys.py" />
         <option value="$PROJECT_DIR$/Hackerank/jumpingOnClouds.py" />
         <option value="$PROJECT_DIR$/Hackerank/repeatedString.py" />
+        <option value="$PROJECT_DIR$/Hackerank/Arrays/hourglassSum.py" />
+        <option value="$PROJECT_DIR$/Hackerank/Arrays/rotLeft.py" />
+        <option value="$PROJECT_DIR$/Hackerank/String/makeAnagram.py" />
       </list>
     </option>
   </component>
@@ -130,7 +131,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="width" value="1020" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,6 +155,12 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="Hackerank" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hackerank" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,6 +175,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PyCharmProWorkspace\LeetCode\Hackerank\Warmup" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -180,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.repeatedString">
+  <component name="RunManager" selected="Python.makeAnagram">
     <configuration name="countingValleys" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +206,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hackerank/countingValleys.py" />
+      <option name="SCRIPT_NAME" value="F:\PyCharmProWorkspace\LeetCode\Hackerank\Warmup\countingValleys.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,13 +225,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hackerank/jumpingOnClouds.py" />
+      <option name="SCRIPT_NAME" value="F:\PyCharmProWorkspace\LeetCode\Hackerank\Warmup\jumpingOnClouds.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="reorderLogFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="makeAnagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,12 +239,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week-5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hackerank/String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week-5/reorderLogFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hackerank/String/makeAnagram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +263,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hackerank/repeatedString.py" />
+      <option name="SCRIPT_NAME" value="F:\PyCharmProWorkspace\LeetCode\Hackerank\Warmup\repeatedString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,26 +282,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hackerank/sockMerchant.py" />
+      <option name="SCRIPT_NAME" value="F:\PyCharmProWorkspace\LeetCode\Hackerank\Warmup\sockMerchant.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.reorderLogFiles" />
       <item itemvalue="Python.sockMerchant" />
       <item itemvalue="Python.countingValleys" />
       <item itemvalue="Python.jumpingOnClouds" />
       <item itemvalue="Python.repeatedString" />
+      <item itemvalue="Python.makeAnagram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.makeAnagram" />
         <item itemvalue="Python.repeatedString" />
         <item itemvalue="Python.jumpingOnClouds" />
         <item itemvalue="Python.countingValleys" />
         <item itemvalue="Python.sockMerchant" />
-        <item itemvalue="Python.reorderLogFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -374,26 +386,34 @@
       <option name="project" value="LOCAL" />
       <updated>1569298889605</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="hacker rank warm up 4">
+      <created>1569304355338</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569304355338</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-6" y="0" width="816" height="870" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.328877" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.38216147" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.71321696" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.7553476" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15039062" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28553617" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.47459894" />
+      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.47972974" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -447,7 +467,8 @@
     <MESSAGE value="revision 6" />
     <MESSAGE value="revision 7" />
     <MESSAGE value="hacker rank warm up" />
-    <option name="LAST_COMMIT_MESSAGE" value="hacker rank warm up" />
+    <MESSAGE value="hacker rank warm up 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="hacker rank warm up 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,74 +793,85 @@
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/jumpingOnClouds.py</url>
           <line>9</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/jumpingOnClouds.py</url>
           <line>2</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/jumpingOnClouds.py</url>
           <line>4</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/jumpingOnClouds.py</url>
           <line>6</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py</url>
           <line>13</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py</url>
           <line>11</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py</url>
           <line>4</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py</url>
           <line>6</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py</url>
           <line>8</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Hackerank/repeatedString.py</url>
+          <url>file://$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py</url>
           <line>7</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/String/makeAnagram.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/String/makeAnagram.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/String/makeAnagram.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/String/makeAnagram.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Hackerank/String/makeAnagram.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="116" />
+      <option name="time" value="127" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week-4/validTicTacToe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week-4/spiralOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week-4/sortedSquares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1043,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1148,21 +1173,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hackerank/jumpingOnClouds.py">
+    <entry file="file://$PROJECT_DIR$/Hackerank/Warmup/jumpingOnClouds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hackerank/countingValleys.py">
+    <entry file="file://$PROJECT_DIR$/Hackerank/Warmup/repeatedString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hackerank/sockMerchant.py">
+    <entry file="file://$PROJECT_DIR$/Hackerank/Warmup/sockMerchant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="32" selection-end-column="10" />
@@ -1172,10 +1197,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hackerank/repeatedString.py">
+    <entry file="file://$PROJECT_DIR$/Hackerank/Warmup/countingValleys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackerank/Arrays/rotLeft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackerank/Arrays/hourglassSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackerank/String/makeAnagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
